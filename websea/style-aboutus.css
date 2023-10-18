@@ -1,0 +1,60 @@
+section {
+    padding-bottom: 20px;
+}
+
+/* --- header ---*/
+.header2 {
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    text-decoration: underline #891111;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 8px;
+}
+
+/*---content---*/
+.about {
+    width: 50%;
+    float: middle;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+/*---Team---*/
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto ;
+    padding-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+.column img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*---hehe---*/
+.hehe {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.hehe img{
+    width: 50%;
+}

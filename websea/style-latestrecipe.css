@@ -1,0 +1,145 @@
+section{
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+/* --- header ---*/
+/* .header {
+    width: 100%;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center; 
+    padding: 30px;
+    text-decoration: underline #891111;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 8px;
+} */
+
+/* --- Recommend --*/
+.recommend{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    height: auto;
+    background: rgb(230, 229, 229);
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.recommend h2{
+    text-decoration: underline #891111;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
+.recommend a{
+    text-decoration: none;
+}
+.recommend a{
+    text-decoration: none;
+}
+.recommend a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.recommend a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+} 
+.recommend a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+  
+.recommend a:active {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.recommend img{
+    width: 100%;
+    height: 500px;
+    color: transparent;
+    object-fit: cover;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.recommend-banner-content{
+    padding-top: 20px;
+}
+
+/*--- content ---*/
+.header-content {
+    text-decoration: solid ;
+    text-transform: uppercase ;
+    font-size: 20px;
+}
+.column-content {
+    float: left;
+    width: 50%;
+    padding: 30px;
+    height: auto;
+    display: flex;
+    align-items: center; 
+    column-gap: 5px;
+    position:relative;
+}
+.column-content img{
+    width: 200px;
+    height: 200px;
+    color: transparent;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.column-content h3 {
+    display: auto;
+    position:absolute;
+    top:50%;
+    right:0;
+    width:50%;
+    transform:translatey(-50%)
+}
+
+.row-content {
+    margin: auto;
+    background:  rgb(230, 229, 229);
+    border-radius: 10px;
+}
+
+.row-content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-content a{
+    text-decoration: none;
+}
+.column-content a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.column-content a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+} 
+.column-content a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+  
+.column-content a:active {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.column-content:hover {
+    background-color: darkgray;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .column-content {
+      width: 100%;
+    }
+}

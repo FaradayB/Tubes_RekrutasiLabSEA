@@ -1,0 +1,205 @@
+
+section {
+    padding-bottom: 20px;
+}
+
+.tabel-profile{
+    margin:auto;
+    text-align:left;
+    border-collapse: collapse;
+}
+.tabel-profile td{
+    padding:10px 50px;
+    border-bottom: 2px solid #891111;
+}
+td.tabel-data{
+    text-align: center;
+    padding-left: 200px;
+
+}
+td.tabel-info{
+    text-align: left;
+    padding-right: 200px;
+}
+@media screen and (max-width: 780px) {
+    td.tabel-data{
+        text-align: center;
+        padding-left: 20px;
+    
+    }
+    td.tabel-info{
+        text-align: left;
+        padding-right: 20px;
+    }
+}
+/* --- header ---*/
+.header h1{
+    font-weight: bolder;
+    font-size: 62px;
+}
+.header2 {
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+}
+.header3 {
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+}
+
+/*---profpic---*/
+.pp {
+    width: 50%;
+    float: middle;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.pp img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/*---button profpic---*/
+/*---button profile---*/ /*ini sengaja karna 22nya make button ini OKEH!*/
+.btn-tengah{
+    margin: auto;
+}
+.btn-akun{
+    top:0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-akun button{
+    position:relative;
+    flex-basis:20%;
+    color: #000000;
+    height:40px;
+    width: 100px;
+    border-radius:20px;
+    border:0;
+    outline:0;
+    cursor:pointer;         
+    margin: auto;
+}
+
+#editprofil{
+    transform:translatex(145px);
+}
+#addrecipe{
+    transform:translatex(-145px);
+}
+.btn-akun a{
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    display:block;
+    object-fit: cover;
+}
+.btn-akun button.disable{
+    background: #eaeaea;
+    color: #000000;
+}
+
+.btn-akun button.disable:hover{
+    background: #891111;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+/*---My Recipes--*/
+* {
+    box-sizing: border-box;
+}
+.profile-row {
+    margin: auto;
+    width: 75%;
+    background:  rgb(230, 229, 229);
+    border-radius: 10px;
+    padding: 25px 0;
+}
+.profile-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.recipes-content{
+    min-width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.recipes-column {
+    float: left;
+    width: 250px;
+    height: 350px;
+    color: #000000;
+    padding: 2.55vmin;
+    margin: auto;
+}
+.recipes-column img{
+    width: 100%;
+    height: 200px;
+    color: transparent;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.recipes-column h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+.recipes-row {
+    margin: auto;
+    background:  rgb(230, 229, 229);
+    border-radius: 10px;
+}
+.recipes-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.recipes-column:hover {
+    background-color: rgb(198, 198, 198);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 780px) {
+    .recipes-column {
+      width: 100%;
+    }
+    #editprofil{
+        transform:translatex(75px);
+    }
+    #addrecipe{
+        transform:translatex(-75px);
+    }
+}
+.recipes-column h3{
+    font-weight: normal;
+}
+.recipes-column a{
+    text-decoration: none;
+}
+.recipes-column a:link {
+    color: rgb(0, 0, 0);
+}
+.recipes-column a:visited {
+    color: rgb(0, 0, 0);
+}
+.recipes-column a:hover {
+    color: rgb(0, 0, 0);
+}
+.recipes-column a:active {
+    color: rgb(0, 0, 0);
+}

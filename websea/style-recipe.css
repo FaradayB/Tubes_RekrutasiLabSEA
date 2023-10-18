@@ -1,0 +1,121 @@
+/* -----I'm Just Testinh---- */
+#ab {
+    display : block;
+    overflow : hidden;
+    width:100%;
+    height: 500px;
+}
+iframe{
+    margin:auto;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+/*---Heart Button---*/
+.btn-field{
+    top:0;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-field button{
+    position:relative;
+    flex-basis:20%;
+    background:#891111;
+    color:#fff;
+    height:40px;
+    width: 100px;
+    border-radius:20px;
+    border:0;
+    outline:0;
+    cursor:pointer;         
+    margin: auto;
+}
+
+.btn-field button.disable{
+    background: #eaeaea;
+    color: #000000;
+}
+.btn-field button:hover{
+    background-color: #891111;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*---langkah dan alat---*/
+.Caramasak-content {
+    min-width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.Caramasak-content h3 {
+    padding-bottom: 10px;
+}
+
+.Caramasak-column-langkah {
+    float: left;
+    width: 750px;
+    height: auto;
+    color: #000000;
+    background-color: #e6e6e6;
+    padding: 2.55vmin;
+    margin: auto;
+}
+.Caramasak-column-alat {
+    float: left;
+    width: 250px;
+    height: auto;
+    color: #000000;
+    background-color: #f3f3f3;
+    padding: 2.55vmin;
+    margin: auto;
+}
+
+.Caramasak-row{
+    margin: auto;
+}
+
+.Caramasak-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Caramasak img{
+    width: 100%;
+    height: 200px;
+    color: transparent;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Caramasak h4{
+    font-weight: normal;
+}
+
+.Caramasak-content a{
+    text-decoration: none;
+}
+
+.Caramasak-content a:link {
+    color: rgb(0, 0, 0);
+}
+  
+.Caramasak-content a:visited {
+    color: rgb(0, 0, 0);
+}
+  
+.Caramasak-content a:hover {
+    color: rgb(0, 0, 0);
+}
+  
+.Caramasak-content a:active {
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 600px) {
+    .Caramasak-column {
+      width: 100%;
+    }
+}
+

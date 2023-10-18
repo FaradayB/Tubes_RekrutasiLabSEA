@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*--Background--*/
+.container{
+    width:100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(50, 3, 0, 0.8),rgb(50,3,0,0.8)),url(https://sb.kaleidousercontent.com/67418/1920x1280/65295fe73b/ella-olsson-opbjwbccaeo-unsplash.jpg);
+    background-size:cover;
+    position:relative;
+}
+
+/*--Semua yang ada formnya--*/
+.form-box{
+    width: 50%;
+    max-width:450px;
+    position:absolute;
+    top :50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align:center;
+    border-radius: 10px;
+}
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    height:  50px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+form p{
+    text-align: left;
+    font-size: 13px;
+}
+input{
+    width:100%;
+    background:transparent;
+    border:0;
+    outline:0;
+    padding:18px;
+}
+.input-field i{
+    margin-left:15px;
+    color:#999
+}
+
+/*--Sign Up & Log In button--*/
+.btn-field{
+    top:0;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-field button{
+    flex-basis:48%;
+    background: #891111;
+    color: #fff;
+    height:40px;
+    border-radius:20px;
+    border:0;
+    outline:0;
+    cursor:pointer;
+}
+
+.btn-field button.disable{
+    background: #eaeaea;
+    color: #555;
+}
+/*--Back to home button--*/
+.btn-area button{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: #891111;
+    /* float: left; */
+}
+.btn-area button:hover{
+    background: #eee;
+}

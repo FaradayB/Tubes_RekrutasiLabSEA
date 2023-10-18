@@ -1,0 +1,110 @@
+.header-content {
+    text-decoration: solid ;
+    text-transform: uppercase ;
+    font-size: 20px;
+}
+section {
+    padding-bottom: 20px;
+}
+.tabel-profile{
+    margin:auto;
+    text-align:left;
+    border-collapse: collapse;
+}
+.tabel-profile td{
+    padding:10px 50px;
+    border-bottom: 2px solid #891111;
+}
+
+/* --- header ---*/
+.header h1{
+    font-weight: bolder;
+    font-size: 62px;
+}
+.header2 {
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+}
+.header3 {
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+}
+
+/*---My Recipes--*/
+* {
+    box-sizing: border-box;
+}
+.recipes-content{
+    min-width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.recipes-column {
+    float: left;
+    width: 250px;
+    height: auto;
+    color: #000000;
+    padding: 2.55vmin;
+    margin: auto;
+}
+.recipes-column img{
+    width: 100%;
+    height: 200px;
+    color: transparent;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.recipes-column h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.recipes-row {
+    margin: auto;
+    background:  rgb(230, 229, 229);
+    border-radius: 10px;
+}
+.recipes-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.recipes-column:hover {
+    background-color: rgb(198, 198, 198);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 780px) {
+    .recipes-column {
+      width: 100%;
+    }
+    #editprofil{
+        transform:translatex(75px);
+    }
+    #addrecipe{
+        transform:translatex(-75px);
+    }
+}
+.recipes-column h3{
+    font-weight: normal;
+    text-decoration: none;
+}
+.recipes-column a:link {
+    color: rgb(0, 0, 0);
+}
+.recipes-column a:visited {
+    color: rgb(0, 0, 0);
+}
+.recipes-column a:hover {
+    color: rgb(0, 0, 0);
+}
+.recipes-column a:active {
+    color: rgb(0, 0, 0);
+}

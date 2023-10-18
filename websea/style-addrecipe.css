@@ -1,0 +1,154 @@
+/* -----I'm Just Testinh---- */
+#ab {
+    display : block;
+    overflow : hidden;
+    width:100%;
+    height: 500px;
+}
+iframe{
+    margin:auto;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+/*--Styling textarea*/
+textarea {
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+.Caramasak input{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-weight: 900;
+    text-align: center;
+}
+/*---langkah dan alat---*/
+.Caramasak-content {
+    min-width: 100%;
+    margin: auto;
+    justify-content: center;
+    height:px;
+}
+.Caramasak-content h3 {
+    padding-bottom: 10px;
+}
+
+.Caramasak-column-langkah {
+    float: left;
+    width: 750px;
+    height: 420px;
+    color: #000000;
+    background-color: #e6e6e6;
+    padding: 2.55vmin;
+    margin: auto;
+}
+.Caramasak-column-alat {
+    float: left;
+    width: 250px;
+    height: 420px;
+    color: #000000;
+    background-color: #f3f3f3;
+    padding: 2.55vmin;
+    margin: auto;
+}
+@media screen and (max-width: 780px) {
+    .Caramasak-column-langkah {
+        width:500px;
+    }
+    .Caramasak-column-alat {
+        width:500px;
+    }
+    .Caramasak-column-alat textarea{
+        width:100%;
+    }
+    .Caramasak-column-langkah textarea{
+        width:100%;
+    }
+}
+.Caramasak-row {
+    margin: auto;
+    height:100%;
+}
+
+.Caramasak-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Caramasak img{
+    width: 100%;
+    height: 200px;
+    color: transparent;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Caramasak h4{
+    font-weight: normal;
+}
+
+.Caramasak-content a{
+    text-decoration: none;
+}
+
+.Caramasak-content a:link {
+    color: rgb(0, 0, 0);
+}
+  
+.Caramasak-content a:visited {
+    color: rgb(0, 0, 0);
+}
+  
+.Caramasak-content a:hover {
+    color: rgb(0, 0, 0);
+}
+  
+.Caramasak-content a:active {
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 600px) {
+    .Caramasak-column {
+      width: 100%;
+    }
+}
+.btn-akun{
+    top:0;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-akun button{
+    position:relative;
+    flex-basis:20%;
+    background: #eaeaea;;
+    color: #000;
+    height: 40px;
+    width: 100px;
+    border-radius:20px;
+    border:0;
+    outline:0;
+    cursor:pointer;         
+    margin: auto;
+}
+.btn-akun a{
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    display:block;
+    object-fit: cover;
+}
+
+.btn-akun button:hover{
+    background-color: #891111;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}

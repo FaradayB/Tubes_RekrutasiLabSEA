@@ -1,0 +1,49 @@
+.tabel-profile .input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    height:  50px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.tabel-profile input{
+    width:100%;
+    background:transparent;
+    border:0;
+    outline:0;
+    padding:18px;
+}
+
+.tabel-profile .input-field i{
+    margin-left:15px;
+    color:#999
+}
+td.tabel-data{
+    text-align: center;
+    padding-left: 200px;
+
+}
+td.tabel-info{
+    text-align: left;
+    padding-right: 200px;
+}
+@media screen and (max-width: 780px) {
+    td.tabel-data{
+        text-align: center;
+        padding-left: 20px;
+    
+    }
+    td.tabel-info{
+        text-align: left;
+        padding-right: 20px;
+    }
+}
+
+.btn-akun button:hover{
+    background-color: #891111;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
